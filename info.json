@@ -1,0 +1,14 @@
+{
+  "name": "maikuu-radio-terminal",
+  "version": "1.0.0",
+  "title": "Radio terminal",
+  "author": "maikuu",
+  "contact": "",
+  "homepage": "",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base >= 2.0.0",
+    "space-age >= 2.0.0"
+  ],
+  "description": "Radio Terminal: linked chest with 1 inventory slot and no additional configurations. Only interactible with inserters. The only way to delete it is using a deconstruction planner (robots,space-platform). Intented to be used in Escape to Space"
+}
