@@ -20,12 +20,14 @@ local radio_terminal_recipe = {
     name = "radio-terminal",
     ingredients =
     {
-        {type = "item", name = "iron-ore", amount = 1}
+        {type = "item", name = "steel-chest", amount = 1},
+        {type = "item", name = "electronic-circuit", amount = 10},
+        {type = "item", name = "iron-gear-wheel", amount = 5}
     },
     results = {{type ="item", name = "radio-terminal", amount = 1}},
-    energy_required = 1,
-    allow_productivity = true,
-    enabled = false
+    energy_required = 5,
+    allow_productivity = false,
+    enabled = true
 }
 
 data:extend({radio_terminal_recipe})
